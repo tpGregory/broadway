@@ -10,6 +10,12 @@ header {  /* Adds background image and white color to text in header */
 }
 
 
-a { /* Colors all links white */
+a { /* Colors all links white and sizes them to 18px */
   color: white;
+  font-size: 18px
+}
+
+
+h1 {
+  font-size: 70px;
 }
