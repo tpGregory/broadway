@@ -1,3 +1,15 @@
-ul {  /* Removes dots from unordered list in header */
-  list-style-type: none;
+* { /* Adds helvetica font style and centers text throught page */
+  font-family: Helvetica;
+  text-align: center;
+}
+
+
+header {  /* Adds background image and white color to text in header */
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+
+a { /* Colors all links white */
+  color: white;
 }
