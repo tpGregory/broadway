@@ -1,6 +1,7 @@
 * { /* Adds helvetica font style and centers text throught page */
   font-family: Helvetica;
   text-align: center;
+  font-weight: bold;
 }
 
 
@@ -10,12 +11,42 @@ header {  /* Adds background image and white color to text in header */
 }
 
 
+footer nav {  /* Adds background color, changes font size and aligns the text to the left */
+  background-color: dimgray;
+  text-align: left;
+  font-size: 11px;
+}
+
+
 a { /* Colors all links white and sizes them to 18px */
   color: white;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: normal;
 }
 
 
 h1 {
   font-size: 70px;
+}
+
+
+h2 {
+  font-size: 32px;
+}
+
+
+h3 {
+  font-size: 23px
+}
+
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+#designed {
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
 }
